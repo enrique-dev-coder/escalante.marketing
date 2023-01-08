@@ -1,6 +1,6 @@
 import React from "react";
-import { Header2Text, Header3Text } from "../../Common";
-import { ContainerTwoSections, ContainerOneSection } from "../../Layout";
+import { Header2Text } from "../../Common";
+import { ContainerTwoSections } from "../../Layout";
 
 const SectionForText = () => (
   <div className=" lg:my-6 lg:pr-10">
