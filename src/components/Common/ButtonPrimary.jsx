@@ -1,8 +1,12 @@
 import React from "react";
 
-const ButtonPrimary = ({ text }) => {
+const ButtonPrimary = ({ text, full }) => {
   return (
-    <button className="secondary_font text-white text-lg  bg-primary_button_color hover:bg-hover_button_color  shadow-md  transition-all py-2 px-6 rounded-md">
+    <button
+      className={`${
+        full && "w-full"
+      } secondary_font text-white text-lg  bg-primary_button_color hover:bg-hover_button_color  shadow-md  transition-all py-2 px-6 rounded-md`}
+    >
       {text}
     </button>
   );

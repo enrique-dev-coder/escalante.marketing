@@ -5,6 +5,7 @@ import FirstBlock from "./FirstBlock";
 import SecondBlock from "./SecondBlock";
 import SecondBanner from "./SecondBanner";
 import ThirdBlock from "./ThirdBlock";
+import PricingPlans from "./PricingPlans";
 
 const HomePage = () => {
   return (
@@ -15,6 +16,7 @@ const HomePage = () => {
       <SecondBlock />
       <SecondBanner />
       <ThirdBlock />
+      <PricingPlans />
     </main>
   );
 };
