@@ -7,7 +7,7 @@ const Section1 = () => (
 );
 
 const SectionForText = () => (
-  <div className=" my-6 pr-10">
+  <div className=" lg:my-6 lg:pr-10">
     <Header3Text
       text="Its putting the correct follow up process in place to promote, advertise, and create an offer 
   So that the possible client, the LEAD, can comprenhend the value of your poduct and you make the sale. 
@@ -23,7 +23,7 @@ const ImageSection = () => (
 const FirstBlock = () => {
   return (
     <article>
-      <ContainerOneSection Section={<Section1 />} addedClasses={"my-14"} />
+      <ContainerOneSection Section={<Section1 />} addedClasses={"lg:my-14"} />
       <ContainerTwoSections
         Section1={<SectionForText />}
         Section2={<ImageSection />}

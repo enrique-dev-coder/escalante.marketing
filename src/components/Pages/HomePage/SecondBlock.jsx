@@ -1,9 +1,9 @@
 import React from "react";
-import { Header2Text, Header3Text } from "../../Common";
-import { ContainerTwoSections, ContainerOneSection } from "../../Layout";
+import { Header3Text } from "../../Common";
+import { ContainerTwoSections } from "../../Layout";
 
 const SectionForText = () => (
-  <div className=" my-6 pl-10">
+  <div className=" my-6 lg:pl-10">
     <Header3Text
       text="Do you have records of all the people who have called your business? 
    "
@@ -21,6 +21,7 @@ const FirstBlock = () => {
   return (
     <article>
       <ContainerTwoSections
+        isImage
         Section1={<ImageSection />}
         Section2={<SectionForText />}
       />

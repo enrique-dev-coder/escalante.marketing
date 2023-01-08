@@ -3,9 +3,10 @@ import { Header2Text, Header3Text } from "../../Common";
 import { ContainerTwoSections, ContainerOneSection } from "../../Layout";
 
 const SectionForText = () => (
-  <div className=" my-6 pr-10">
+  <div className=" lg:my-6 lg:pr-10">
     <Header2Text
-      addedClasses={"pl-6"}
+      addedClasses={"p-3 lg:pl-6"}
+      fontSize="text-lg"
       color="text-white"
       text="This is one of the 30+ processes that we study for your company, and help you implement better proceses that will HELP DOUBLE YOUR REVENUE IN THE NEXT 90 DAYS"
     />

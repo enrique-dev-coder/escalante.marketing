@@ -8,13 +8,13 @@ const Section = () => (
       isItPageTitle={false}
       text_color="text-white"
       text="Marketing and Sales go hand in hand. "
-      text_size="text-2xl"
+      text_size="text-lg lg:text-2xl"
     />
     <Header1Text
       isItPageTitle={false}
       text_color="text-white"
       text="But marketing is not only putting a great picture out there to attract your ideal consumer. "
-      text_size="text-3xl"
+      text_size="text-lg lg:text-3xl"
     />
   </>
 );
