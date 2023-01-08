@@ -10,7 +10,7 @@ const Header1Text = ({
   return (
     <>
       {isItPageTitle ? (
-        <h1 className="primary_font text-primary_headers_purple font-bold text-3xl  lg:text-5xl mb-8">
+        <h1 className="primary_font font-bold text-3xl  lg:text-4xl mb-8">
           {text}
         </h1>
       ) : (

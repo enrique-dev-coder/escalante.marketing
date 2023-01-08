@@ -15,6 +15,7 @@ module.exports = {
       hover_button_color: "#ca8a04",
       white: "#ffffff",
       soft_color_bg: "#fde68a",
+      green_1: "#059669",
     },
   },
   plugins: [],
