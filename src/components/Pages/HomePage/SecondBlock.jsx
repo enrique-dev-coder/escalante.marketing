@@ -1,30 +1,22 @@
 import React from "react";
-import { Header3Text } from "../../Common";
-import { ContainerTwoSections } from "../../Layout";
-
-const SectionForText = () => (
-  <div className=" my-6 lg:pl-10">
-    <Header3Text
-      text="Do you have records of all the people who have called your business? 
-   "
-    />
-    <Header3Text text="What they needed?" />
-    <Header3Text text="A way of contact ? " />
-    <Header3Text text="An email to send more information ?  " />
-  </div>
-);
-
-const ImageSection = () => (
-  <div className="h-[350px] bg-soft_color_bg my-6 rounded-md">Image</div>
-);
 const FirstBlock = () => {
   return (
-    <article>
-      <ContainerTwoSections
-        isImage
-        Section1={<ImageSection />}
-        Section2={<SectionForText />}
-      />
+    <article className="bg-no-repeat bg-cover bg-right lg:bg-center  h-[50vh] bg-[url('/img/bonsai.png')]">
+      <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 h-full flex flex-col justify-center py-4 ">
+        <div className="bg-black/60 lg:w-1/2 py-1 px-3 rounded-lg">
+          <h2 className="leading-none text-white text-[40px] lg:text-[60px] pt-4 font-black w-[80%] lg:w-[60%]">
+            Results in:{" "}
+          </h2>
+          <ul className="pl-8 text-white list-disc text-[30px] lg:text-[40px] leading-none font-bold">
+            <li>Production companies</li>
+            <li>Manufacturing companies</li>
+            <li>Airlines</li>
+            <li>Lawfirms</li>
+            <li>Restaurants</li>
+            <li>and more</li>
+          </ul>
+        </div>
+      </div>
     </article>
   );
 };

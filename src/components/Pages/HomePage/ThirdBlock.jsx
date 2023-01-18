@@ -1,34 +1,32 @@
 import React from "react";
-import { Header2Text } from "../../Common";
-import { ContainerTwoSections } from "../../Layout";
-
-const SectionForText = () => (
-  <div className=" lg:my-6 lg:pr-10">
-    <Header2Text
-      addedClasses={"p-3 lg:pl-6"}
-      fontSize="text-lg"
-      color="text-white"
-      text="This is one of the 30+ processes that we study for your company, and help you implement better proceses that will HELP DOUBLE YOUR REVENUE IN THE NEXT 90 DAYS"
-    />
-  </div>
-);
-
-const ImageSection = () => (
-  <div className="h-[350px] bg-soft_color_bg my-6 rounded-md rounded-t ">
-    Image
-  </div>
-);
+import { InlineWidget } from "react-calendly";
 
 const ThirdBlock = () => {
   return (
     <article>
-      <ContainerTwoSections
-        addedClasses={
-          "bg-primary_headers_purple rounded-tr-3xl rounded-bl-3xl my-10"
-        }
-        Section1={<SectionForText />}
-        Section2={<ImageSection />}
-      />
+      <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 h-full flex flex-col justify-center py-4 ">
+        <h2 className="text-black text-[40px] lg:text-[60px] font-black leading-none w-[80%] mx-auto text-center text_shadow_little">
+          Book your <span className=" text-bright_yellow">FREE</span> 30 minute
+          strategy session with me.{" "}
+        </h2>
+        {/*Calendly widget*/}
+      </div>
+      <div className="h-[95vh] relative bg-[url('/img/hands.png')] bg-center bg-cover  bg-no-repeat">
+        <img
+          src="/img/right_arrow.png"
+          className="hidden lg:block absolute right-[15%] -top-[50px]"
+        />
+        <img
+          src="/img/left_arrow.png"
+          className="hidden lg:block absolute left-[15%] -top-[50px] "
+        />
+        <InlineWidget
+          styles={{
+            height: "95vh",
+          }}
+          url="https://calendly.com/escalante-marketing/30-minute-free-strategy-call"
+        />
+      </div>
     </article>
   );
 };

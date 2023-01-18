@@ -1,33 +1,27 @@
 import React from "react";
-import { Header2Text, Header3Text } from "../../Common";
 import { ContainerTwoSections, ContainerOneSection } from "../../Layout";
-
-const Section1 = () => (
-  <Header2Text text="Its also putting the correct processes into place to ensure, that after a person has shown interest.  The client is able to understand the value your company or service brings to them. " />
-);
-
-const SectionForText = () => (
-  <div className=" lg:my-6 lg:pr-10">
-    <Header3Text
-      text="Its putting the correct follow up process in place to promote, advertise, and create an offer 
-  So that the possible client, the LEAD, can comprenhend the value of your poduct and you make the sale. 
-   "
-    />
-  </div>
-);
-
-const ImageSection = () => (
-  <div className="h-[350px] bg-soft_color_bg my-6 rounded-md">Image</div>
-);
 
 const FirstBlock = () => {
   return (
-    <article>
-      <ContainerOneSection Section={<Section1 />} addedClasses={"lg:my-14"} />
-      <ContainerTwoSections
-        Section1={<SectionForText />}
-        Section2={<ImageSection />}
-      />
+    <article className=" h-[85vh] gradient_bg ">
+      <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 h-full flex flex-col ">
+        <h2 className="leading-none text-white text-[40px] lg:text-[60px] pt-4 font-black w-[80%] lg:w-[60%]">
+          Were specialized in Maximizing{" "}
+          <span className=" text-bright_yellow">ROI</span> and{" "}
+          <span className=" text-bright_yellow">PROFIT</span>
+        </h2>
+        <div className="flex justify-between relative">
+          <h2 className=" text-center bg-black/40 rounded-lg absolute  top-[50%] lef-0  lg:left-[35%] leading-none text-white text-[40px] lg:text-[60px] pt-4 font-black lg:w-[25%] ">
+            In less than <span className=" text-bright_yellow">90 days</span>
+          </h2>
+          <div className="flex  items-end">
+            <img src="/img/ivan_1.png" alt="ivan escalante" />
+          </div>
+          <div className="flex  items-end">
+            <img src="/img/first_block_1.png" alt="marketing" />
+          </div>
+        </div>
+      </div>
     </article>
   );
 };
