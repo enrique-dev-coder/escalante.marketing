@@ -16,7 +16,7 @@ export default function Example() {
     <Disclosure as="nav" className=" gradient_bg">
       {({ open }) => (
         <>
-          <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-7xl px-2 py-3 sm:px-6 lg:px-8">
             <div className="relative flex  items-center justify-between">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
@@ -25,12 +25,15 @@ export default function Example() {
                   {open ? (
                     <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
                   ) : (
-                    <Bars3Icon className="block h-6 w-6" aria-hidden="true" />
+                    <Bars3Icon
+                      className="block h-6 w-6 text-white"
+                      aria-hidden="true"
+                    />
                   )}
                 </Disclosure.Button>
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-                <div className="flex flex-1 flex-shrink-0 items-center">
+                <div className="flex flex-1   justify-center lg:justify-start">
                   <img
                     className="block h-8 w-auto lg:hidden"
                     src="/img/logo.png"
@@ -63,8 +66,14 @@ export default function Example() {
                 </div>
                 {/* Book now button*/}
                 <div className="flex justify-center flex-col">
-                  <button className=" bg-primary_button_color font-bold  text-2xl text-white py-2 px-8   rounded-3xl">
-                    Book Now
+                  <button className=" bg-primary_button_color font-bold  lg:text-2xl text-white py-2 px-8   rounded-3xl">
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://calendly.com/escalante-marketing/30-minute-free-strategy-call"
+                    >
+                      Book Now
+                    </a>
                   </button>
                 </div>
               </div>
