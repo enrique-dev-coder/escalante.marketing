@@ -5,7 +5,7 @@ const SeventhBlock = () => {
     <div className="relative">
       <article className=" py-8 z-0 relative bg-center bg-cover bg-no-repeat bg-[url('/img/bg_seventh_block.png')] ">
         <div className="relative w-[90%] mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 h-full flex flex-col justify-between ">
-          <h2 className="leading-none background_clip mx-auto text-center  bg-primary_bg rounded-full text-white text-[30px] lg:text-[60px] pt-4 font-black  lg:w-[80%]">
+          <h2 className="leading-none lg:mx-auto text-center  bg-primary_bg rounded-full text-white text-[30px] lg:text-[60px] pt-4 font-black  lg:w-[80%]">
             While we do this
           </h2>
           <div className="flex justify-center ">
@@ -23,8 +23,8 @@ const SeventhBlock = () => {
       </article>
       <div className="bg-[url('/img/notes.png')] relative h-[400px] z-10 bg-no-repeat bg-cover bg-center">
         <div className="w-full flex justify-center">
-          <div className="bg-primary_bg rounded-full w-fit mx-auto  absolute -top-5 z-20">
-            <h2 className="leading-none background_clip mx-auto text-center   text-white text-[30px] lg:text-[60px] pt-4 font-black  lg:w-[80%]">
+          <div className="bg-primary_bg rounded-full w-[300px] lg:w-fit mx-auto  absolute -top-5 z-20">
+            <h2 className="leading-none background_clip mx-auto text-center   text-white text-[30px] lg:text-[60px] py-2 font-black  lg:w-[80%]">
               For as low as <span className=" text-bright_yellow">$2,500*</span>
             </h2>
           </div>

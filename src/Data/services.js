@@ -50,7 +50,7 @@ export const services = [
   {
     title: " PREMIUM",
     priceLineThrough: "$12,500",
-    priceNew: "$4,250",
+    priceNew: "$4,250 /mo",
     plan: "PREMIUM",
     included: [
       {
@@ -98,7 +98,7 @@ export const services = [
   {
     title: " PLUS",
     priceLineThrough: "$18,000",
-    priceNew: "$6,000",
+    priceNew: "$6,000 /mo",
     plan: "PLUS",
     included: [
       {

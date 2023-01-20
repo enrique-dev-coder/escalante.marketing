@@ -25,5 +25,6 @@ body {
   );
 }
 
-.background_clip {
+.button_shadow {
+  box-shadow: 10px 3px 2px #f8f02c;
 }

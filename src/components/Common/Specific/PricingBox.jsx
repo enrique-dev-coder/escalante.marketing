@@ -6,6 +6,24 @@ const PricingBox = ({ title, priceLineThrough, included, priceNew, plan }) => {
       <div className=" w-5/6 mx-auto h-full flex flex-col space-y-1 ">
         <div className="flex-1">
           <h2 className="font-bold text-center text-[30px]">{title}</h2>
+          <div>
+            <div className="text-center flex space-x-2  flex-col text-[25px] px-3">
+              <div className="flex justify-center py-4">
+                <div className="relative">
+                  <p className="text-[18px]  leading-none">Starting at...</p>
+                  <h2 className=" line-through text-[23px] leading-none">
+                    {priceLineThrough}
+                  </h2>{" "}
+                </div>
+                <h2 className="font-black text-[30px]">{priceNew}</h2>
+              </div>
+              <div>
+                <button className=" bg-black text-bright_yellow  button_shadow px-3 rounded-lg font-bold  text-center lg:text-left ">
+                  Buy now
+                </button>
+              </div>
+            </div>
+          </div>
           <p className=" py-2 text-[24px] font-bold text-primary_bg">
             {plan === "BASIC" && "What´s included:"}
             {plan === "PREMIUM" && "Everything BASIC has,PLUS:"}
@@ -50,17 +68,6 @@ const PricingBox = ({ title, priceLineThrough, included, priceNew, plan }) => {
             ))}
           </>
         </div>
-        <button className="bg-bright_yellow rounded-lg">
-          <div className="text-center flex space-x-2 lg:flex-row flex-col text-[25px] px-3">
-            <h2 className=" font-black flex-1 text-center lg:text-left ">
-              Buy now
-            </h2>
-            <div className="flex justify-center">
-              <h2 className=" line-through text-red">{priceLineThrough}</h2>{" "}
-              <h2 className="font-black text-green_1">{priceNew}</h2>
-            </div>
-          </div>
-        </button>
       </div>
     </article>
   );

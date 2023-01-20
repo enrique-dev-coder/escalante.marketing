@@ -10,7 +10,7 @@ const FirstBlock = () => {
           <span className=" text-bright_yellow">PROFIT</span>
         </h2>
         <div className="flex justify-between relative">
-          <h2 className=" text-center bg-black/40 rounded-lg absolute  top-[50%] left-[15%]  lg:left-[35%] leading-none text-white text-[30px]  lg:text-[60px] pt-4 font-black lg:w-[25%] ">
+          <h2 className=" text-center bg-black/40 rounded-lg absolute top-[70%]  lg:top-[50%] left-[15%]  lg:left-[35%] leading-none text-white text-[30px]  lg:text-[60px] pt-4 font-black lg:w-[25%] ">
             In less than <span className=" text-bright_yellow">90 days</span>
           </h2>
           <div className="flex  items-end">
