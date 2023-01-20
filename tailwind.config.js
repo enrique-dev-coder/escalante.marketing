@@ -20,6 +20,8 @@ module.exports = {
       green_1: "#059669",
       soft_green: "#dcfce7",
       bright_yellow: "#F8F02C",
+      red: "#ef4444",
+      blueFb: "#0ea5e9",
     },
   },
   plugins: [],

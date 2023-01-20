@@ -1,31 +1,138 @@
 export const services = [
   {
-    title: "Basic",
-    price: "$2500",
+    title: "Ongoing Content and Management BASIC",
+    priceLineThrough: "$5000",
+    priceNew: "$2500 /mo",
     included: [
-      "we study your company, put some processes in place",
-      "We run your marketing, content creating and place processes for retargeting ",
-      "Youtube, facebook, tiktok, google, Instagram, podcast",
-      "we answer all the comments and redirect them to your funnel",
+      {
+        name: "YouTube videos produced Bi-Weekly",
+        priceLineThrough: " ",
+        price: " $2000 /mo",
+      },
+      {
+        name: "YouTube scheduled posting and Distribution",
+        priceLineThrough: " ",
+        price: " Included",
+      },
+      {
+        name: "Facebook daily Content Creation ",
+        priceLineThrough: "",
+        price: "$1000 /mo",
+      },
+      {
+        name: "Facebook scheduled posting and Distribution",
+        priceLineThrough: " ",
+        price: "Included",
+      },
+      {
+        name: "Instagram daily Content Creation ",
+        priceLineThrough: " ",
+        price: "$1000 /mo",
+      },
+      {
+        name: "Instagram  scheduled posting and Distribution ",
+        priceLineThrough: " ",
+        price: "Included",
+      },
     ],
   },
   {
-    title: "Plus",
-    price: "$5000",
+    title: "Ongoing Content and Management PREMIUM",
+    priceLineThrough: "$12,500",
+    priceNew: "$4,250",
     included: [
-      "All services of basic plan",
-      "Run marketing , content creating, and regtargeting",
-      "Record with your company 1 a month for newer posts, videos, ads,",
+      {
+        name: "ALL BENEFITS FROM BASIC PLAN",
+        priceLineThrough: "",
+        price: "Included",
+      },
+      {
+        name: "Manage and Optimize Google ads ",
+        priceLineThrough: "",
+        price: "$2,000 /mo",
+      },
+      {
+        name: "Creation of Google text and banner ads",
+        priceLineThrough: " ",
+        price: "Included",
+      },
+      {
+        name: "Manage and optimize TikTok ads",
+        priceLineThrough: "",
+        price: "$2,000 /mo",
+      },
+      {
+        name: "Manage and optimize TikTok channel",
+        priceLineThrough: "",
+        price: "$500 /mo",
+      },
+      {
+        name: "Create regular TikTok ads and content",
+        priceLineThrough: "",
+        price: "Included",
+      },
+      {
+        name: "Weekly stats and progress reports",
+        priceLineThrough: "",
+        price: "$500 /mo",
+      },
+      {
+        name: "Weekly update and strategy meetings",
+        priceLineThrough: "",
+        price: "$500 /mo",
+      },
     ],
   },
   {
-    title: "Premium",
-    price: "$10,000",
+    title: "Ongoing Content and Management PLUS",
+    priceLineThrough: "$18,000",
+    priceNew: "$6,000",
     included: [
-      "We create the scritps for your sale",
-      "Funnels retargeting",
-      "We answer the phone for you! and fill your calendar with already qualifying leads ready to make a purchase ",
-      "We even make the sale for you",
+      {
+        name: "ALL BENEFITS FROM PREMIUM PLAN",
+        priceLineThrough: "",
+        price: "Included",
+      },
+      {
+        name: "Manage and Optimize Snapchat ads ",
+        priceLineThrough: "",
+        price: "$2,000 /mo",
+      },
+      {
+        name: "Manage and Optimize Snapchat channel",
+        priceLineThrough: " ",
+        price: "$500 /mo",
+      },
+      {
+        name: "Create regular Snapchat ads and content",
+        priceLineThrough: "",
+        price: "Included",
+      },
+      {
+        name: "Manage and Optimize LinkedIn ads",
+        priceLineThrough: "",
+        price: "$2,000 /mo",
+      },
+      {
+        name: "Manage and Optimize LinkedIn channel",
+        priceLineThrough: " ",
+        price: "$500 /mo",
+      },
+      {
+        name: "Create regular LinkedIn ads and content",
+        priceLineThrough: "",
+        price: "Included",
+      },
+      {
+        name: "Manage and Optimize Twitter channel",
+        priceLineThrough: " ",
+        price: "$500 /mo",
+      },
+      {
+        name: "Create regular Twitter content",
+        priceLineThrough: " ",
+        price: "Included",
+      },
     ],
   },
 ];

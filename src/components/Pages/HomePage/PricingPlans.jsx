@@ -1,20 +1,17 @@
 import React from "react";
-import { Header1Text, PricingBox } from "../../Common";
+import { PricingBox } from "../../Common";
 import { ContainerOneSection } from "../../Layout";
 import { services } from "../../../Data/services";
+
 const Content = () => (
   <>
-    <Header1Text
-      isItPageTitle={false}
-      text="Pricing Plans"
-      text_size="text-4xl"
-      text_color="text-primary_headers_purple"
-    />
+    <h2 className="text-center text-[50px] font-black">Pricing</h2>
     <div className="flex flex-col lg:justify-between lg:flex-row ">
       {services.map((item) => (
         <PricingBox
           title={item.title}
-          price={item.price}
+          priceLineThrough={item.priceLineThrough}
+          priceNew={item.priceNew}
           included={item.included}
         />
       ))}
@@ -27,7 +24,7 @@ const PricingPlans = () => {
     <ContainerOneSection
       cetered
       Section={<Content />}
-      addedClasses="lg:my-[100px]"
+      addedClasses="lg:my-[50px]"
     />
   );
 };
