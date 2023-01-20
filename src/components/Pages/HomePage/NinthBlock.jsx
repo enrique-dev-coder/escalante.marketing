@@ -27,7 +27,7 @@ const services = {
       price: "$1,500 /mo",
     },
     {
-      name: "Answering and selling team ",
+      name: "Answering and selling team*  per person",
       priceLineThrough: "",
       price: "$1,500 /mo",
     },
@@ -42,14 +42,19 @@ const services = {
       price: "$1,000 /mo",
     },
     {
-      name: "Website develop ",
+      name: "Website design and development ",
       priceLineThrough: "",
       price: "$2,500 /mo",
     },
     {
-      name: "Website design ",
+      name: "Professional video recording and video 1,250* 1 hour ",
       priceLineThrough: "",
-      price: "Included",
+      price: "$1,250 /mo",
+    },
+    {
+      name: "Professional Pictures and 15 deliverables 1,250 1 hour",
+      priceLineThrough: "",
+      price: "$1,250 /mo",
     },
     {
       name: " ",

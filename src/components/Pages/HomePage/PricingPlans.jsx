@@ -9,6 +9,7 @@ const Content = () => (
     <div className="flex flex-col lg:justify-between lg:flex-row ">
       {services.map((item) => (
         <PricingBox
+          plan={item.plan}
           title={item.title}
           priceLineThrough={item.priceLineThrough}
           priceNew={item.priceNew}

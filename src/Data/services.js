@@ -1,8 +1,9 @@
 export const services = [
   {
-    title: "Ongoing Content and Management BASIC",
+    title: "BASIC",
     priceLineThrough: "$5000",
     priceNew: "$2500 /mo",
+    plan: "BASIC",
     included: [
       {
         name: "YouTube videos produced Bi-Weekly",
@@ -34,18 +35,24 @@ export const services = [
         priceLineThrough: " ",
         price: "Included",
       },
+      {
+        name: "Weekly stats and progress reports",
+        priceLineThrough: "",
+        price: "$500 /mo",
+      },
+      {
+        name: "Weekly update and strategy meetings",
+        priceLineThrough: "",
+        price: "$500 /mo",
+      },
     ],
   },
   {
-    title: "Ongoing Content and Management PREMIUM",
+    title: " PREMIUM",
     priceLineThrough: "$12,500",
     priceNew: "$4,250",
+    plan: "PREMIUM",
     included: [
-      {
-        name: "ALL BENEFITS FROM BASIC PLAN",
-        priceLineThrough: "",
-        price: "Included",
-      },
       {
         name: "Manage and Optimize Google ads ",
         priceLineThrough: "",
@@ -72,27 +79,28 @@ export const services = [
         price: "Included",
       },
       {
-        name: "Weekly stats and progress reports",
+        name: "Manage and optimize Facebook ads",
         priceLineThrough: "",
-        price: "$500 /mo",
+        price: "$2,000 /mo",
       },
       {
-        name: "Weekly update and strategy meetings",
+        name: "Manage and optimize Instagram ads",
         priceLineThrough: "",
-        price: "$500 /mo",
+        price: "$2,000 /mo",
+      },
+      {
+        name: "Manage and optimize Youtube ads",
+        priceLineThrough: "",
+        price: "$2,000 /mo",
       },
     ],
   },
   {
-    title: "Ongoing Content and Management PLUS",
+    title: " PLUS",
     priceLineThrough: "$18,000",
     priceNew: "$6,000",
+    plan: "PLUS",
     included: [
-      {
-        name: "ALL BENEFITS FROM PREMIUM PLAN",
-        priceLineThrough: "",
-        price: "Included",
-      },
       {
         name: "Manage and Optimize Snapchat ads ",
         priceLineThrough: "",

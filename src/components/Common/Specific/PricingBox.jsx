@@ -1,12 +1,16 @@
 import React from "react";
 
-const PricingBox = ({ title, priceLineThrough, included, priceNew }) => {
+const PricingBox = ({ title, priceLineThrough, included, priceNew, plan }) => {
   return (
     <article className="border-2 rounded-md border-soft_color_bg py-2 mb-8 lg:w-[32%]">
       <div className=" w-5/6 mx-auto h-full flex flex-col space-y-1 ">
         <div className="flex-1">
           <h2 className="font-bold text-center text-[30px]">{title}</h2>
-          <p className=" py-2 font-semibold">What´s included</p>
+          <p className=" py-2 text-[24px] font-bold text-primary_bg">
+            {plan === "BASIC" && "What´s included:"}
+            {plan === "PREMIUM" && "Everything BASIC has,PLUS:"}
+            {plan === "PLUS" && "Everything PREMIUM has,PLUS:"}
+          </p>
           <>
             {included.map((service, i) => (
               <div
@@ -49,7 +53,7 @@ const PricingBox = ({ title, priceLineThrough, included, priceNew }) => {
         <button className="bg-bright_yellow rounded-lg">
           <div className="text-center flex space-x-2 lg:flex-row flex-col text-[25px] px-3">
             <h2 className=" font-black flex-1 text-center lg:text-left ">
-              Book now
+              Buy now
             </h2>
             <div className="flex justify-center">
               <h2 className=" line-through text-red">{priceLineThrough}</h2>{" "}

@@ -5,7 +5,7 @@ const ThirdBlock = () => {
   return (
     <article>
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 h-full flex flex-col justify-center py-4 ">
-        <h2 className="text-black text-[40px] lg:text-[60px] font-black leading-none w-[80%] mx-auto text-center text_shadow_little">
+        <h2 className="text-black text-[30px] lg:text-[60px] font-black leading-none w-[80%] mx-auto text-center text_shadow_little">
           Book your <span className=" text-bright_yellow">FREE</span> 30 minute
           strategy session with me.{" "}
         </h2>

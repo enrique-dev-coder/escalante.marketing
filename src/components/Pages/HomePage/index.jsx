@@ -26,7 +26,7 @@ const HomePage = () => {
       <EightBlock />
       <PricingPlans />
       <NinthBlock />
-      <h2 className=" text-center  text-[40px] lg:text-[66px] font-black text_shadow_little ">
+      <h2 className=" text-center w-[90%] mx-auto  text-[30px] lg:text-[66px] font-black text_shadow_little ">
         Have you heard enough to make a decision?
       </h2>
       <ThirdBlock />

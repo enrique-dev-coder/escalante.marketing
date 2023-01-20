@@ -3,7 +3,7 @@ import React from "react";
 const TenthBlock = () => {
   return (
     <article className=" py-8 h-[800px] relative bg-center bg-cover bg-no-repeat bg-[url('/img/jump.png')] flex flex-col justify-end ">
-      <h2 className="text-white text-[100px] font-black text-center ">
+      <h2 className="text-white  text-[70px] lg:text-[100px] font-black text-center ">
         Take Action Today
       </h2>
       {/* Book now button*/}
